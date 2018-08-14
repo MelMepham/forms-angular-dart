@@ -1,0 +1,7 @@
+<div class ="title">
+    <h1>Welcome to {{name}}</h1>
+    <button [routerLink]="RoutePaths.puppies.toUrl()">Puppies</button>
+    <button [routerLink]="RoutePaths.humans.toUrl()">Humans</button>
+</div>
+<router-outlet [routes]="Routes.all"></router-outlet>
+

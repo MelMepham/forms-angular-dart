@@ -1,0 +1,10 @@
+<div class="title">
+    <h2>Puppies</h2>
+    <p *ngFor="let puppy of puppies">
+        <span>
+            {{puppy.id}} {{puppy.name}}
+            <p>{{puppy.hasParent}}</p>
+            <img src="images/smile-regular.svg" height="15px" width="15px" />
+        </span>
+    </p>
+</div>
